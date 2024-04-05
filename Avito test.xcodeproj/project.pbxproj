@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B20D5A52B95E0C200226D4E /* Avito_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B20D5A42B95E0C200226D4E /* Avito_testApp.swift */; };
+		1B20D5A52B95E0C200226D4E /* Avito_startView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B20D5A42B95E0C200226D4E /* Avito_startView.swift */; };
 		1B20D5A72B95E0C200226D4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B20D5A62B95E0C200226D4E /* ContentView.swift */; };
 		1B20D5A92B95E0C300226D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B20D5A82B95E0C300226D4E /* Assets.xcassets */; };
-		1B20D5AC2B95E0C300226D4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B20D5AB2B95E0C300226D4E /* Preview Assets.xcassets */; };
-		1B20D5B62B95E0C300226D4E /* Avito_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B20D5B52B95E0C300226D4E /* Avito_testTests.swift */; };
-		1B20D5C02B95E0C300226D4E /* Avito_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B20D5BF2B95E0C300226D4E /* Avito_testUITests.swift */; };
-		1B20D5C22B95E0C300226D4E /* Avito_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B20D5C12B95E0C300226D4E /* Avito_testUITestsLaunchTests.swift */; };
+		1B20D5CF2B95E0D200226D4E /* AvitoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B20D5CE2B95E0D200226D4E /* AvitoViewModel.swift */; };
+		1B20D5D12B95E26100226D4E /* avito.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B20D5D02B95E26000226D4E /* avito.json */; };
+		1B20D5D32B95E5B500226D4E /* FeatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B20D5D22B95E5B500226D4E /* FeatchData.swift */; };
+		1B20D5D72B9602C200226D4E /* AvitoCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B20D5D62B9602C200226D4E /* AvitoCartView.swift */; };
+		1B20D5DD2B972E7800226D4E /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B20D5DC2B972E7800226D4E /* ActionButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +36,16 @@
 
 /* Begin PBXFileReference section */
 		1B20D5A12B95E0C200226D4E /* Avito test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avito test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B20D5A42B95E0C200226D4E /* Avito_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avito_testApp.swift; sourceTree = "<group>"; };
+		1B20D5A42B95E0C200226D4E /* Avito_startView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avito_startView.swift; sourceTree = "<group>"; };
 		1B20D5A62B95E0C200226D4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B20D5A82B95E0C300226D4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1B20D5AB2B95E0C300226D4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B20D5B12B95E0C300226D4E /* Avito testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avito testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B20D5B52B95E0C300226D4E /* Avito_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avito_testTests.swift; sourceTree = "<group>"; };
 		1B20D5BB2B95E0C300226D4E /* Avito testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avito testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B20D5BF2B95E0C300226D4E /* Avito_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avito_testUITests.swift; sourceTree = "<group>"; };
-		1B20D5C12B95E0C300226D4E /* Avito_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avito_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B20D5CE2B95E0D200226D4E /* AvitoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoViewModel.swift; sourceTree = "<group>"; };
+		1B20D5D02B95E26000226D4E /* avito.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = avito.json; sourceTree = "<group>"; };
+		1B20D5D22B95E5B500226D4E /* FeatchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatchData.swift; sourceTree = "<group>"; };
+		1B20D5D62B9602C200226D4E /* AvitoCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoCartView.swift; sourceTree = "<group>"; };
+		1B20D5DC2B972E7800226D4E /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				1B20D5A32B95E0C200226D4E /* Avito test */,
-				1B20D5B42B95E0C300226D4E /* Avito testTests */,
-				1B20D5BE2B95E0C300226D4E /* Avito testUITests */,
 				1B20D5A22B95E0C200226D4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,37 +94,56 @@
 		1B20D5A32B95E0C200226D4E /* Avito test */ = {
 			isa = PBXGroup;
 			children = (
-				1B20D5A42B95E0C200226D4E /* Avito_testApp.swift */,
+				1BC6AAE52BC0223C0056FFF5 /* Preview Content */,
+				1BC6AAE32BC01DE20056FFF5 /* View */,
+				1B20D5A42B95E0C200226D4E /* Avito_startView.swift */,
 				1B20D5A62B95E0C200226D4E /* ContentView.swift */,
-				1B20D5A82B95E0C300226D4E /* Assets.xcassets */,
-				1B20D5AA2B95E0C300226D4E /* Preview Content */,
+				1B20D5D62B9602C200226D4E /* AvitoCartView.swift */,
+				1BC6AAE22BC01DCD0056FFF5 /* Helper */,
+				1BC6AAE12BC01DAB0056FFF5 /* Data */,
+				1BC6AAE02BC01D9C0056FFF5 /* Assets */,
 			);
 			path = "Avito test";
 			sourceTree = "<group>";
 		};
-		1B20D5AA2B95E0C300226D4E /* Preview Content */ = {
+		1BC6AAE02BC01D9C0056FFF5 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				1B20D5AB2B95E0C300226D4E /* Preview Assets.xcassets */,
+				1B20D5A82B95E0C300226D4E /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1BC6AAE12BC01DAB0056FFF5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1B20D5CE2B95E0D200226D4E /* AvitoViewModel.swift */,
+				1B20D5D02B95E26000226D4E /* avito.json */,
+				1B20D5D22B95E5B500226D4E /* FeatchData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1BC6AAE22BC01DCD0056FFF5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1B20D5DC2B972E7800226D4E /* ActionButtonView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1BC6AAE32BC01DE20056FFF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BC6AAE52BC0223C0056FFF5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		1B20D5B42B95E0C300226D4E /* Avito testTests */ = {
-			isa = PBXGroup;
-			children = (
-				1B20D5B52B95E0C300226D4E /* Avito_testTests.swift */,
-			);
-			path = "Avito testTests";
-			sourceTree = "<group>";
-		};
-		1B20D5BE2B95E0C300226D4E /* Avito testUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1B20D5BF2B95E0C300226D4E /* Avito_testUITests.swift */,
-				1B20D5C12B95E0C300226D4E /* Avito_testUITestsLaunchTests.swift */,
-			);
-			path = "Avito testUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B20D5AC2B95E0C300226D4E /* Preview Assets.xcassets in Resources */,
+				1B20D5D12B95E26100226D4E /* avito.json in Resources */,
 				1B20D5A92B95E0C300226D4E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B20D5D72B9602C200226D4E /* AvitoCartView.swift in Sources */,
+				1B20D5DD2B972E7800226D4E /* ActionButtonView.swift in Sources */,
+				1B20D5D32B95E5B500226D4E /* FeatchData.swift in Sources */,
 				1B20D5A72B95E0C200226D4E /* ContentView.swift in Sources */,
-				1B20D5A52B95E0C200226D4E /* Avito_testApp.swift in Sources */,
+				1B20D5CF2B95E0D200226D4E /* AvitoViewModel.swift in Sources */,
+				1B20D5A52B95E0C200226D4E /* Avito_startView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B20D5B62B95E0C300226D4E /* Avito_testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B20D5C22B95E0C300226D4E /* Avito_testUITestsLaunchTests.swift in Sources */,
-				1B20D5C02B95E0C300226D4E /* Avito_testUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
